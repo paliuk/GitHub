@@ -86,14 +86,18 @@ body {
     height: 30vh;
     width: 20rem;
     padding: 2rem 2rem;
-    img{
-        padding-bottom:1rem;
+
+    img {
+        padding-bottom: 1rem;
     }
-    h2{
-        padding-bottom:1rem;
+
+    h2 {
+        padding-bottom: 1rem;
     }
-    hr{
-        margin-bottom:1rem;
+
+    hr {
+        border: 3px solid red;
+        margin-bottom: 1rem;
     }
 }
 
@@ -104,12 +108,28 @@ body {
 }
 
 .right-box {
-    background-color: white;
+    background-color: #1f59cc;
     height: 30vh;
     width: 20rem;
+    padding: 2rem 2rem;
+
+    img {
+        padding-bottom: 1rem;
+    }
+
+    h2 {
+        padding-bottom: 1rem;
+        color: white;
+    }
+
+    hr {
+        margin-bottom: 1rem;
+        border: 3px solid white;
+    }
 }
-hr{
-    border: 3px solid red;
+
+hr {
+    
     width: 30%;
     border-radius: 10px;
 }
