@@ -85,7 +85,16 @@ body {
     background-color: white;
     height: 30vh;
     width: 20rem;
-
+    padding: 2rem 2rem;
+    img{
+        padding-bottom:1rem;
+    }
+    h2{
+        padding-bottom:1rem;
+    }
+    hr{
+        margin-bottom:1rem;
+    }
 }
 
 .center-box {
@@ -98,4 +107,9 @@ body {
     background-color: white;
     height: 30vh;
     width: 20rem;
+}
+hr{
+    border: 3px solid red;
+    width: 30%;
+    border-radius: 10px;
 }
