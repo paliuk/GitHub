@@ -10,7 +10,7 @@ img {
     object-fit: cover;
 }
 
-    /* FIRST SECTION */
+/* FIRST SECTION */
 
 body {
     background-color: black;
@@ -55,7 +55,7 @@ body {
     border: none;
     padding: 15px 10px;
     border-radius: 5%;
-    
+
 }
 
 .simple-button {
@@ -70,3 +70,32 @@ body {
 }
 
 /* SECOND SECTION */
+
+.second-container-content {
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 10rem;
+}
+
+
+
+.left-box {
+    background-color: white;
+    height: 30vh;
+    width: 20rem;
+
+}
+
+.center-box {
+    background-color: white;
+    height: 30vh;
+    width: 20rem;
+}
+
+.right-box {
+    background-color: white;
+    height: 30vh;
+    width: 20rem;
+}
